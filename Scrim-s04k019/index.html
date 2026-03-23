@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+                
+    </head>
+    <body>
+       <div class="Game">
+         <div class="container">
+            <div class="left">
+                <div class="Home-Title">
+                    <h3 class="Title">HOME</h3>
+                </div>
+        
+                <div class="Title-score-box">
+                    <p id="home-score-left">0</p>
+                </div>
+                
+                <div class="left-button">
+                    <button class="button-g" onclick="inc_1()">+1</button>
+                    <button class="button-g" onclick="inc_2()">+2</button>
+                    <button class="button-g" onclick="inc_3()">+3</button>
+                </div>
+            </div>
+             <div class="right">
+                <div class="Home-Title">
+                    <h3 class="Title">GUEST</h3>
+                </div>
+        
+                <div class="Title-score-box">
+                    <p id="home-score-right">0</p>
+                </div>
+                
+                <div class="left-button">
+                    <button class="button-g" onclick="Inc_1()">+1</button>
+                    <button class="button-g" onclick="Inc_2()">+2</button>
+                    <button class="button-g" onclick="Inc_3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="btn-txt" onclick="resetleft()">Reset Left</button>
+             <button class="btn-txt" onclick="resetright()">Reset Right</button>
+        </div>
+       </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
